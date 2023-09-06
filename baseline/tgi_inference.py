@@ -89,6 +89,7 @@ def format_riddle_input(
     alphabet: list[str],
     col_delimiter: str = ",",
     row_delimiter: str = ",\n",
+    chatml: bool = True,
 ) -> str:
     input_examples = format_training_examples(
         riddle,
@@ -110,46 +111,6 @@ def format_riddle_input(
     )
 
     test_index = len(riddle.train) + 1
-    buffer = [
-        "You like to solve puzzles. Find the underying abstract input and output transformation. Look at the following input-output pairs:\n",
-        input_examples,
-        f"Now consider the last input examples and deduce its output. Think deeply! Directly generate output board values.\ninput{test_index}: ",
-        test_input,
-        f"\n\noutput{test_index}: ",
-    ]
-
-    x = "".join(buffer)
-    return x, test_output
-
-
-def format_riddle_input2(
-    riddle: Riddle,
-    alphabet: list[str],
-    col_delimiter: str = ",",
-    row_delimiter: str = ",\n",
-) -> str:
-    input_examples = format_training_examples(
-        riddle,
-        alphabet=alphabet,
-        col_delimiter=col_delimiter,
-        row_delimiter=row_delimiter,
-    )
-    test_input = format_board(
-        riddle.test[0].input,
-        alphabet=alphabet,
-        col_delimiter=col_delimiter,
-        row_delimiter=row_delimiter,
-    )
-    test_output = format_board(
-        riddle.test[0].output,
-        alphabet=alphabet,
-        col_delimiter=col_delimiter,
-        row_delimiter=row_delimiter,
-    )
-
-    test_index = len(riddle.train) + 1
-
-    chatml = True
 
     if chatml:
         buffer = [
@@ -166,7 +127,7 @@ def format_riddle_input2(
             input_examples,
             f"\nNow you consider the last input example. Your task is to deduce the corresponding output.\ninput{test_index}: ",
             test_input,
-            "\nAfter thinking thoroughly about the abstract transformation you came to the conclusion that it must be:"
+            "\nAfter thinking thoroughly about the abstract transformation you come to the conclusion that it must be:"
             f"\n\noutput{test_index}: ",
         ]
 
@@ -179,23 +140,17 @@ def parse_args():
     parser.add_argument(
         "--generate_url", type=str, default="http://127.0.0.1:8080/generate"
     )
-    parser.add_argument("--max_new_tokens", type=int, default=500)
+    parser.add_argument("--max_new_tokens", type=int, default=600)
     parser.add_argument("--min_new_tokens", type=int, default=1)
     parser.add_argument("--temperature", type=float, default=0.3)
     parser.add_argument("--top_p", type=float, default=0.9)
-
-    # some ideas for alphabets:
-    # "ABCDEFGHIJ"
-    # "abcdefghij"
-    # "!:._?|/)#-"
-    # "αβχδεφγψιδ"
-    # "[](){}<>*#"
     parser.add_argument("--alphabet", type=str, default="0123456789")
     parser.add_argument("--trials", type=int, default=1)
     parser.add_argument("--col_delimiter", type=str, default=",")
     parser.add_argument("--row_delimiter", type=str, default=",\n")
     parser.add_argument("--cutoff_length", type=int, default=3200)
     parser.add_argument("--jsonl_out", type=str)
+    parser.add_argument("--format", type=str, default="chatml", help="legacy, chatml")
 
     args = parser.parse_args()
     return args
@@ -235,10 +190,16 @@ def main():
     print("row_delimiter: ", row_delimiter)
     print("num_trails:", num_trials)
 
+    chatml = args.format == "chatml"
+
     print(f"input example {riddle_ids[0]}: ")
     riddle = dataset.load_riddle_from_id(riddle_ids[0])
-    x, y = format_riddle_input2(
-        riddle, alphabet, col_delimiter=col_delimiter, row_delimiter=row_delimiter
+    x, y = format_riddle_input(
+        riddle,
+        alphabet,
+        col_delimiter=col_delimiter,
+        row_delimiter=row_delimiter,
+        chatml=chatml,
     )
     print(x)
     print()
@@ -255,8 +216,12 @@ def main():
     for i, id in enumerate(riddle_ids):
         riddle = dataset.load_riddle_from_id(id)
 
-        x, y = format_riddle_input2(
-            riddle, alphabet, col_delimiter=col_delimiter, row_delimiter=row_delimiter
+        x, y = format_riddle_input(
+            riddle,
+            alphabet,
+            col_delimiter=col_delimiter,
+            row_delimiter=row_delimiter,
+            chatml=chatml,
         )
         if len(x) > args.cutoff_length:
             print(f"skipping {id} ...")
