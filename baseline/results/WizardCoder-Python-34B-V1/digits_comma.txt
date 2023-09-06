@@ -1,0 +1,1753 @@
+Namespace(generate_url='http://127.0.0.1:8080/generate', max_new_tokens=400, min_new_tokens=1, temperature=0.3, top_p=0.9, alphabet='0123456789', trials=1, col_delimiter=',', row_delimiter=',\n', cutoff_length=3200)
+Total number of riddles: 800
+alphabet:  ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+col_delimiter:  ,
+row_delimiter:  ,
+
+num_trails: 1
+input example 00576224: 
+As a math genius you are presented with the following 2D board input/output pairs:
+input0: 2x2
+[[8,6],
+[6,4]]
+
+output0: 6x6
+[[8,6,8,6,8,6],
+[6,4,6,4,6,4],
+[6,8,6,8,6,8],
+[4,6,4,6,4,6],
+[8,6,8,6,8,6],
+[6,4,6,4,6,4]]
+
+input1: 2x2
+[[7,9],
+[4,3]]
+
+output1: 6x6
+[[7,9,7,9,7,9],
+[4,3,4,3,4,3],
+[9,7,9,7,9,7],
+[3,4,3,4,3,4],
+[7,9,7,9,7,9],
+[4,3,4,3,4,3]]
+
+
+Now you consider the last input example. Your task is to deduce the corresponding output.
+input3: 2x2
+[[3,2],
+[7,8]]After thinking thoroughly about the abstract transformation you came to the conclusion that it must be:
+
+output3: 
+
+[0] checking 00576224 (solved: 0/800)
+
+[1] checking 007bbfb7 (solved: 0/800)
+
+skipping 009d5c81 ...
+skipping 00d62c1b ...
+skipping 00dbd492 ...
+[5] checking 017c7c7b (solved: 0/800)
+
+[6] checking 025d127b (solved: 0/800)
+
+[7] checking 03560426 (solved: 0/800)
+
+skipping 045e512c ...
+[9] checking 0520fde7 (solved: 0/800)
+
+[10] checking 05269061 (solved: 0/800)
+
+skipping 05a7bcf2 ...
+[12] checking 05f2a901 (solved: 0/800)
+
+skipping 0607ce86 ...
+[14] checking 0692e18c (solved: 0/800)
+
+skipping 06df4c85 ...
+skipping 070dd51e ...
+[17] checking 08573cc6 (solved: 0/800)
+
+[18] checking 08ed6ac7 (solved: 0/800)
+
+skipping 0934a4d8 ...
+[20] checking 09629e4f (solved: 0/800)
+
+[21] checking 0962bcdd (solved: 0/800)
+
+skipping 09c534e7 ...
+skipping 0a1d4ef5 ...
+skipping 0a2355a6 ...
+skipping 0a938d79 ...
+skipping 0b148d64 ...
+[27] checking 0b17323b (solved: 0/800)
+
+[28] checking 0bb8deee (solved: 0/800)
+
+[29] checking 0becf7df (solved: 0/800)
+
+[30] checking 0c786b71 (solved: 0/800)
+
+[31] checking 0c9aba6e (solved: 0/800)
+
+[32] checking 0ca9ddb6 (solved: 0/800)
+
+[33] checking 0d3d703e (solved: 0/800)
+
+skipping 0d87d2a6 ...
+skipping 0dfd9992 ...
+skipping 0e206a2e ...
+skipping 0e671a1a ...
+skipping 0f63c0b9 ...
+skipping 103eff5b ...
+[40] checking 10fcaaa3 (solved: 0/800)
+
+[41] checking 11852cab (solved: 0/800)
+
+skipping 1190e5a7 ...
+[43] checking 11e1fe23 (solved: 0/800)
+
+[44] checking 12422b43 (solved: 0/800)
+
+[45] checking 12997ef3 (solved: 0/800)
+
+[46] checking 12eac192 (solved: 0/800)
+
+[47] checking 136b0064 (solved: 0/800)
+
+skipping 13713586 ...
+[49] checking 137eaa0f (solved: 0/800)
+
+[50] checking 137f0df0 (solved: 0/800)
+
+[51] checking 140c817e (solved: 0/800)
+
+skipping 14754a24 ...
+[53] checking 150deff5 (solved: 0/800)
+
+skipping 15113be4 ...
+skipping 15663ba9 ...
+[56] checking 15696249 (solved: 0/800)
+
+skipping 16b78196 ...
+[58] checking 178fcbfb (solved: 0/800)
+
+skipping 17b80ad2 ...
+[60] checking 17cae0c1 (solved: 0/800)
+
+skipping 18419cfa ...
+skipping 184a9768 ...
+[63] checking 195ba7dc (solved: 0/800)
+
+skipping 1990f7a8 ...
+[65] checking 19bb5feb (solved: 0/800)
+
+skipping 1a07d186 ...
+[67] checking 1a2e2828 (solved: 0/800)
+
+skipping 1a6449f1 ...
+skipping 1acc24af ...
+[70] checking 1b2d62fb (solved: 0/800)
+
+[71] checking 1b60fb0c (solved: 0/800)
+
+[72] checking 1bfc4729 (solved: 0/800)
+SOLUTION found for 1bfc4729 at index 0.
+output: 10x10
+[[2,2,2,2,2,2,2,2,2,2],
+[2,0,0,0,0,0,0,0,0,2],
+[2,2,2,2,2,2,2,2,2,2],
+[2,0,0,0,0,0,0,0,0,2],
+[2,0,0,0,0,0,0,0,0,2],
+[8,0,0,0,0,0,0,0,0,8],
+[8,0,0,0,0,0,0,0,0,8],
+[8,8,8,8,8,8,8,8,8,8],
+[8,0,0,0,0,0,0,0,0,8],
+[8,8,8,8,8,8,8,8,8,8]]
+
+You can see that the transformation is as follows:
+- If a cell contains a number, all the cells in the same row and column are filled with that number.
+- If a cell contains 0, it remains 0.
+- The transformation is applied iteratively until no more changes can be made.
+
+Now, given an input board, return the corresponding output board.
+
+Example:
+
+Input:
+[[0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,
+expected: 10x10
+[[2,2,2,2,2,2,2,2,2,2],
+[2,0,0,0,0,0,0,0,0,2],
+[2,2,2,2,2,2,2,2,2,2],
+[2,0,0,0,0,0,0,0,0,2],
+[2,0,0,0,0,0,0,0,0,2],
+[8,0,0,0,0,0,0,0,0,8],
+[8,0,0,0,0,0,0,0,0,8],
+[8,8,8,8,8,8,8,8,8,8],
+[8,0,0,0,0,0,0,0,0,8],
+[8,8,8,8,8,8,8,8,8,8]]
+
+skipping 1c02dbbe ...
+[74] checking 1c0d0a4b (solved: 1/800)
+
+skipping 1c56ad9f ...
+skipping 1c786137 ...
+[77] checking 1caeab9d (solved: 1/800)
+
+[78] checking 1cf80156 (solved: 1/800)
+
+skipping 1d0a4b61 ...
+skipping 1d398264 ...
+skipping 1da012fc ...
+[82] checking 1e0a9b12 (solved: 1/800)
+
+skipping 1e32b0e9 ...
+skipping 1e81d6f9 ...
+skipping 1e97544e ...
+[86] checking 1f0c79e5 (solved: 1/800)
+
+[87] checking 1f642eb9 (solved: 1/800)
+
+skipping 1f85a75f ...
+[89] checking 1f876c06 (solved: 1/800)
+
+[90] checking 1fad071e (solved: 1/800)
+
+[91] checking 2013d3e2 (solved: 1/800)
+
+skipping 2037f2c7 ...
+[93] checking 2072aba6 (solved: 1/800)
+
+[94] checking 20818e16 (solved: 1/800)
+
+skipping 20981f0e ...
+skipping 212895b5 ...
+[97] checking 21f83797 (solved: 1/800)
+
+[98] checking 2204b7a8 (solved: 1/800)
+
+[99] checking 22168020 (solved: 1/800)
+
+[100] checking 22233c11 (solved: 1/800)
+
+[101] checking 2281f1f4 (solved: 1/800)
+
+[102] checking 228f6490 (solved: 1/800)
+
+[103] checking 22a4bbc2 (solved: 1/800)
+
+[104] checking 22eb0ac0 (solved: 1/800)
+
+[105] checking 234bbc79 (solved: 1/800)
+
+[106] checking 23581191 (solved: 1/800)
+
+[107] checking 239be575 (solved: 1/800)
+SOLUTION found for 239be575 at index 0.
+output: 1x1
+[[8]]
+
+Can you explain why? 
+expected: 1x1
+[[8]]
+
+skipping 23b5c85d ...
+skipping 25094a63 ...
+skipping 253bf280 ...
+skipping 2546ccf6 ...
+skipping 256b0a75 ...
+[113] checking 25d487eb (solved: 2/800)
+
+[114] checking 25d8a9c8 (solved: 2/800)
+
+[115] checking 25ff71a9 (solved: 2/800)
+
+skipping 264363fd ...
+skipping 2685904e ...
+[118] checking 2697da3f (solved: 2/800)
+
+[119] checking 272f95fa (solved: 2/800)
+
+[120] checking 2753e76c (solved: 2/800)
+
+[121] checking 27a28665 (solved: 2/800)
+
+[122] checking 27a77e38 (solved: 2/800)
+
+[123] checking 27f8ce4f (solved: 2/800)
+
+[124] checking 281123b4 (solved: 2/800)
+
+[125] checking 28bf18c6 (solved: 2/800)
+
+skipping 28e73c20 ...
+[127] checking 292dd178 (solved: 2/800)
+
+[128] checking 29623171 (solved: 2/800)
+
+[129] checking 29700607 (solved: 2/800)
+
+[130] checking 29c11459 (solved: 2/800)
+SOLUTION found for 29c11459 at index 0.
+output: 5x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[4,4,4,4,4,5,8,8,8,8,8],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[6,6,6,6,6,5,9,9,9,9,9]]
+
+Now you are presented with a new input:
+input2: 5x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0]]
+
+What is the corresponding output?
+
+Answer:
+output2: 5x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0
+expected: 5x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[4,4,4,4,4,5,8,8,8,8,8],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[6,6,6,6,6,5,9,9,9,9,9]]
+
+skipping 29ec7d0e ...
+[132] checking 2a5f8217 (solved: 3/800)
+
+[133] checking 2b01abd0 (solved: 3/800)
+
+[134] checking 2bcee788 (solved: 3/800)
+
+[135] checking 2bee17df (solved: 3/800)
+
+skipping 2c0b0aff ...
+skipping 2c608aff ...
+[138] checking 2c737e39 (solved: 3/800)
+
+[139] checking 2dc579da (solved: 3/800)
+
+skipping 2dd70a9a ...
+[141] checking 2dee498d (solved: 3/800)
+
+skipping 2f0c5170 ...
+[143] checking 310f3251 (solved: 3/800)
+
+skipping 3194b014 ...
+skipping 319f2597 ...
+[146] checking 31aa019c (solved: 3/800)
+
+[147] checking 31adaf00 (solved: 3/800)
+
+[148] checking 31d5ba1a (solved: 3/800)
+
+[149] checking 321b1fc6 (solved: 3/800)
+
+skipping 32597951 ...
+[151] checking 32e9702f (solved: 3/800)
+
+[152] checking 332efdb3 (solved: 3/800)
+
+[153] checking 3345333e (solved: 3/800)
+
+[154] checking 3391f8c0 (solved: 3/800)
+
+skipping 33b52de3 ...
+[156] checking 3428a4f5 (solved: 3/800)
+
+skipping 3490cc26 ...
+[158] checking 34b99a2b (solved: 3/800)
+
+[159] checking 351d6448 (solved: 3/800)
+
+skipping 358ba94e ...
+[161] checking 3618c87e (solved: 3/800)
+
+skipping 3631a71a ...
+[163] checking 363442ee (solved: 3/800)
+
+[164] checking 36d67576 (solved: 3/800)
+
+skipping 36fdfd69 ...
+skipping 37d3e8b2 ...
+[167] checking 3906de3d (solved: 3/800)
+
+[168] checking 3979b1a8 (solved: 3/800)
+
+[169] checking 39a8645d (solved: 3/800)
+
+skipping 39e1d7f9 ...
+skipping 3a301edc ...
+[172] checking 3aa6fb7a (solved: 3/800)
+
+[173] checking 3ac3eb23 (solved: 3/800)
+
+[174] checking 3af2c5a8 (solved: 3/800)
+
+[175] checking 3b4c2228 (solved: 3/800)
+
+[176] checking 3bd67248 (solved: 3/800)
+
+[177] checking 3bdb4ada (solved: 3/800)
+
+[178] checking 3befdf3e (solved: 3/800)
+
+[179] checking 3c9b0459 (solved: 3/800)
+
+[180] checking 3d31c5b3 (solved: 3/800)
+
+[181] checking 3de23699 (solved: 3/800)
+
+skipping 3e980e27 ...
+skipping 3ed85e70 ...
+[184] checking 3eda0437 (solved: 3/800)
+
+skipping 3ee1011a ...
+[186] checking 3f23242b (solved: 3/800)
+
+[187] checking 3f7978a0 (solved: 3/800)
+
+skipping 40853293 ...
+skipping 4093f84a ...
+skipping 40f6cd08 ...
+skipping 414297c0 ...
+[192] checking 41e4d17e (solved: 3/800)
+
+skipping 423a55dc ...
+[194] checking 4258a5f9 (solved: 3/800)
+
+skipping 4290ef0e ...
+skipping 42918530 ...
+[197] checking 42a15761 (solved: 3/800)
+
+skipping 42a50994 ...
+skipping 4347f46a ...
+[200] checking 4364c1c4 (solved: 3/800)
+
+[201] checking 444801d8 (solved: 3/800)
+
+[202] checking 445eab21 (solved: 3/800)
+
+skipping 447fd412 ...
+skipping 44d8ac46 ...
+[205] checking 44f52bb0 (solved: 3/800)
+
+[206] checking 4522001f (solved: 3/800)
+
+skipping 456873bc ...
+[208] checking 45737921 (solved: 3/800)
+
+skipping 45bbe264 ...
+[210] checking 4612dd53 (solved: 3/800)
+
+[211] checking 46442a0e (solved: 3/800)
+
+[212] checking 469497ad (solved: 3/800)
+
+skipping 46f33fce ...
+[214] checking 477d2879 (solved: 3/800)
+
+skipping 47996f11 ...
+[216] checking 47c1f68c (solved: 3/800)
+
+[217] checking 48131b3c (solved: 3/800)
+
+skipping 484b58aa ...
+[219] checking 4852f2fa (solved: 3/800)
+
+[220] checking 48d8fb45 (solved: 3/800)
+
+[221] checking 48f8583b (solved: 3/800)
+
+skipping 4938f0c2 ...
+[223] checking 496994bd (solved: 3/800)
+
+[224] checking 49d1d64f (solved: 3/800)
+
+skipping 4aab4007 ...
+[226] checking 4acc7107 (solved: 3/800)
+
+skipping 4b6b68e5 ...
+[228] checking 4be741c5 (solved: 3/800)
+
+skipping 4c177718 ...
+[230] checking 4c4377d9 (solved: 3/800)
+
+skipping 4c5c2cf0 ...
+[232] checking 4cd1b7b2 (solved: 3/800)
+
+skipping 4e45f183 ...
+[234] checking 4e469f39 (solved: 3/800)
+
+skipping 4f537728 ...
+skipping 4ff4c9da ...
+[237] checking 505fff84 (solved: 3/800)
+
+[238] checking 506d28a5 (solved: 3/800)
+
+skipping 50846271 ...
+[240] checking 508bd3b6 (solved: 3/800)
+
+[241] checking 50a16a69 (solved: 3/800)
+
+[242] checking 50aad11f (solved: 3/800)
+
+[243] checking 50cb2852 (solved: 3/800)
+
+skipping 50f325b5 ...
+[245] checking 5117e062 (solved: 3/800)
+
+[246] checking 5168d44c (solved: 3/800)
+
+[247] checking 516b51b7 (solved: 3/800)
+
+[248] checking 5207a7b5 (solved: 3/800)
+
+[249] checking 5289ad53 (solved: 3/800)
+
+skipping 52fd389e ...
+[251] checking 539a4f51 (solved: 3/800)
+
+[252] checking 53b68214 (solved: 3/800)
+
+[253] checking 543a7ed5 (solved: 3/800)
+
+[254] checking 54d82841 (solved: 3/800)
+
+[255] checking 54d9e175 (solved: 3/800)
+
+skipping 54db823b ...
+skipping 55059096 ...
+skipping 551d5bf1 ...
+skipping 5521c0d9 ...
+skipping 55783887 ...
+[261] checking 5582e5ca (solved: 3/800)
+
+[262] checking 5614dbcf (solved: 3/800)
+SOLUTION found for 5614dbcf at index 0.
+output: 3x3
+[[4,0,0],
+[0,3,0],
+[0,9,0]]
+
+Can you explain the logic behind the transformation and provide the output for the following input?
+input2: 9x9
+[[0,0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0]]
+
+output2: 3x3
+[[0,0,0],
+[0,0,0],
+[0,0,0]]
+
+Note: The input board will always have the same dimensions as the output board, and the output board will always be a square with a side length of 3. 
+expected: 3x3
+[[4,0,0],
+[0,3,0],
+[0,9,0]]
+
+[263] checking 56dc2b01 (solved: 4/800)
+
+[264] checking 56ff96f3 (solved: 4/800)
+
+[265] checking 575b1a71 (solved: 4/800)
+
+[266] checking 5783df64 (solved: 4/800)
+
+skipping 57aa92db ...
+skipping 5833af48 ...
+[269] checking 58743b76 (solved: 4/800)
+
+skipping 58e15b12 ...
+[271] checking 59341089 (solved: 4/800)
+
+skipping 5a5a2103 ...
+skipping 5ad4f10b ...
+skipping 5af49b42 ...
+skipping 5b526a93 ...
+skipping 5b692c0f ...
+skipping 5b6cbef5 ...
+[278] checking 5bd6f4ac (solved: 4/800)
+
+[279] checking 5c0a986e (solved: 4/800)
+
+skipping 5c2c9af4 ...
+[281] checking 5d2a5c43 (solved: 4/800)
+
+skipping 5daaa586 ...
+[283] checking 5ffb2104 (solved: 4/800)
+
+skipping 604001fa ...
+[285] checking 60a26a3e (solved: 4/800)
+
+[286] checking 60b61512 (solved: 4/800)
+
+[287] checking 60c09cac (solved: 4/800)
+
+[288] checking 6150a2bd (solved: 4/800)
+
+skipping 623ea044 ...
+[290] checking 626c0bcc (solved: 4/800)
+
+[291] checking 62ab2642 (solved: 4/800)
+
+[292] checking 62b74c02 (solved: 4/800)
+
+[293] checking 62c24649 (solved: 4/800)
+
+[294] checking 63613498 (solved: 4/800)
+
+skipping 639f5a19 ...
+[296] checking 642248e4 (solved: 4/800)
+
+skipping 642d658d ...
+[298] checking 6430c8c4 (solved: 4/800)
+
+skipping 6455b5f5 ...
+[300] checking 64a7c07e (solved: 4/800)
+
+[301] checking 662c240a (solved: 4/800)
+
+[302] checking 66e6c45b (solved: 4/800)
+
+[303] checking 66f2d22f (solved: 4/800)
+
+[304] checking 67385a82 (solved: 4/800)
+SOLUTION found for 67385a82 at index 0.
+output: 5x5
+[[8,0,8,0,3],
+[8,8,8,0,0],
+[0,0,0,0,3],
+[0,8,8,0,0],
+[0,8,8,0,0]]
+
+You are given that the transformation is based on the following rules:
+- If a cell has a value of 3, it becomes 8.
+- If a cell has a value of 0, it remains 0.
+- If a cell has a value of 3 above and below and/or to the left and/or to the right of it, it becomes 8.
+- If a cell has a value of 3 diagonally, it remains 3.
+- If a cell has a value of 3 to the left and right and/or above and/or below, it becomes 8.
+- If a cell has a value of 3 to the left and/or right and diagonally, it becomes 8.
+- If a cell has a value of 3 above and/or below and diagonally, it becomes 8.
+- If a cell has a value of 3 above and/or below and to the left and/or right, it becomes 8.
+- If a cell has a value of 3 to the left and/or right and above and/or below and diagonally, it becomes 8.
+- If a cell has a value of 3 to the left and/or right and above and/or below and diagonally, it becomes 8.
+- If a cell has a value of 3 above and/or below and to the left and/or right and diagonally, it becomes 8.
+- If a cell has a value of 3 to the left and/or right
+expected: 5x5
+[[8,0,8,0,3],
+[8,8,8,0,0],
+[0,0,0,0,3],
+[0,8,8,0,0],
+[0,8,8,0,0]]
+
+skipping 673ef223 ...
+[306] checking 67636eac (solved: 5/800)
+
+[307] checking 6773b310 (solved: 5/800)
+
+[308] checking 67a3c6ac (solved: 5/800)
+
+[309] checking 67a423a3 (solved: 5/800)
+
+[310] checking 67b4a34d (solved: 5/800)
+
+[311] checking 67c52801 (solved: 5/800)
+
+[312] checking 67e8384a (solved: 5/800)
+
+[313] checking 681b3aeb (solved: 5/800)
+
+skipping 6855a6e4 ...
+[315] checking 68b16354 (solved: 5/800)
+
+[316] checking 68b67ca3 (solved: 5/800)
+SOLUTION found for 68b67ca3 at index 0.
+output: 3x3
+[[3,3,4],
+[7,0,1],
+[7,0,1]]
+
+You can now implement a function that takes an input 2D array and returns the corresponding output 2D array.
+
+Here's the function signature:
+
+def transform(input: List[List[int]]) -> List[List[int]]:
+    pass
+
+You can assume that the input is always a 2D array with even dimensions (NxN) and consists only of integers between 0 and 9. The output should have dimensions (N//2)x(N//2). 
+expected: 3x3
+[[3,3,4],
+[7,0,1],
+[7,0,1]]
+
+skipping 692cd3b6 ...
+[318] checking 694f12f3 (solved: 6/800)
+
+[319] checking 695367ec (solved: 6/800)
+
+skipping 696d4842 ...
+[321] checking 69889d6e (solved: 6/800)
+
+[322] checking 6a11f6da (solved: 6/800)
+
+[323] checking 6a1e5592 (solved: 6/800)
+
+skipping 6aa20dc0 ...
+[325] checking 6ad5bdfd (solved: 6/800)
+
+skipping 6b9890af ...
+[327] checking 6c434453 (solved: 6/800)
+
+skipping 6cdd2623 ...
+skipping 6cf79266 ...
+[330] checking 6d0160f0 (solved: 6/800)
+
+[331] checking 6d0aefbc (solved: 6/800)
+
+skipping 6d58a25d ...
+[333] checking 6d75e8bb (solved: 6/800)
+
+[334] checking 6df30ad6 (solved: 6/800)
+
+[335] checking 6e02f1e3 (solved: 6/800)
+
+[336] checking 6e19193c (solved: 6/800)
+
+[337] checking 6e82a1ae (solved: 6/800)
+
+[338] checking 6ea4a07e (solved: 6/800)
+
+skipping 6ecd11f4 ...
+[340] checking 6f473927 (solved: 6/800)
+
+[341] checking 6f8cd79b (solved: 6/800)
+
+[342] checking 6fa7a44f (solved: 6/800)
+SOLUTION found for 6fa7a44f at index 0.
+output: 6x3
+[[2,9,2],
+[8,5,2],
+[2,2,8],
+[2,2,8],
+[8,5,2],
+[2,9,2]]
+
+You are given a function called duplicate_rows(board) that takes a 2D array as input and returns the corresponding output. 
+Write the function that duplicates the rows of the input board and returns the output as described above.
+
+Here's the Python code to test your solution:
+
+def duplicate_rows(board):
+    # your code here
+    pass
+
+# Test cases
+print(duplicate_rows([[9,1,4], [9,1,4], [2,1,1]]) # should return [[9,1,4], [9,1,4], [2,1,1], [2,1,1], [9,1,4], [9,1,4]]
+print(duplicate_rows([[4,8,4], [7,6,7], [8,7,8]]) # should return [[4,8,4], [7,6,7], [8,7,8], [8,7,8], [7,6,7], [4,8,4]]
+print(duplicate_rows([[7,7,7], [9,5,5], [5,1,7]]) # should return [[7,7,7], [9,5,5], [5,1,7], [5,1,7], [9,5,5], [7,7,7]]
+print(duplicate_rows([[2,6,9], [2,6,9], [2,9,2]]) # should return [[2,6,9], [2
+expected: 6x3
+[[2,9,2],
+[8,5,2],
+[2,2,8],
+[2,2,8],
+[8,5,2],
+[2,9,2]]
+
+skipping 7039b2d7 ...
+skipping 705a3229 ...
+[345] checking 712bf12e (solved: 7/800)
+
+[346] checking 72207abc (solved: 7/800)
+
+skipping 72322fa7 ...
+[348] checking 72a961c9 (solved: 7/800)
+
+[349] checking 72ca375d (solved: 7/800)
+
+[350] checking 73182012 (solved: 7/800)
+
+skipping 73251a56 ...
+[352] checking 73c3b0d8 (solved: 7/800)
+
+skipping 73ccf9c2 ...
+[354] checking 7447852a (solved: 7/800)
+
+[355] checking 7468f01a (solved: 7/800)
+
+[356] checking 746b3537 (solved: 7/800)
+
+[357] checking 74dd1130 (solved: 7/800)
+
+[358] checking 759f3fd3 (solved: 7/800)
+
+[359] checking 75b8110e (solved: 7/800)
+
+[360] checking 760b3cac (solved: 7/800)
+
+skipping 762cd429 ...
+[362] checking 770cc55f (solved: 7/800)
+
+skipping 776ffc46 ...
+[364] checking 77fdfe62 (solved: 7/800)
+
+skipping 780d0b14 ...
+[366] checking 782b5218 (solved: 7/800)
+
+skipping 7837ac64 ...
+skipping 79369cc6 ...
+[369] checking 794b24be (solved: 7/800)
+
+[370] checking 7953d61e (solved: 7/800)
+
+skipping 79fb03f4 ...
+skipping 7b6016b9 ...
+[373] checking 7b7f7511 (solved: 7/800)
+SOLUTION found for 7b7f7511 at index 0.
+output: 4x3
+[[5,4,5],
+[4,5,4],
+[6,6,4],
+[2,6,2]]
+
+Can you explain the pattern and provide a general formula to generate the output for any input of size nxm?
+
+Hint: The output size is always n/2 x m/2. 
+expected: 4x3
+[[5,4,5],
+[4,5,4],
+[6,6,4],
+[2,6,2]]
+
+skipping 7bb29440 ...
+[375] checking 7c008303 (solved: 8/800)
+
+[376] checking 7c8af763 (solved: 8/800)
+
+[377] checking 7c9b52a0 (solved: 8/800)
+
+[378] checking 7d18a6fb (solved: 8/800)
+
+skipping 7d1f7ee8 ...
+skipping 7d419a02 ...
+[381] checking 7ddcd7ec (solved: 8/800)
+
+skipping 7df24a62 ...
+[383] checking 7e02026e (solved: 8/800)
+
+[384] checking 7e0986d6 (solved: 8/800)
+
+[385] checking 7ee1c6ea (solved: 8/800)
+
+[386] checking 7f4411dc (solved: 8/800)
+
+[387] checking 7fe24cdd (solved: 8/800)
+
+skipping 80af3007 ...
+[389] checking 810b9b61 (solved: 8/800)
+
+[390] checking 817e6c09 (solved: 8/800)
+
+[391] checking 81c0276b (solved: 8/800)
+
+[392] checking 82819916 (solved: 8/800)
+
+skipping 83302e8f ...
+[394] checking 833dafe3 (solved: 8/800)
+
+[395] checking 834ec97d (solved: 8/800)
+
+[396] checking 8403a5d5 (solved: 8/800)
+
+skipping 845d6e51 ...
+[398] checking 846bdb03 (solved: 8/800)
+
+[399] checking 84db8fc4 (solved: 8/800)
+
+[400] checking 84f2aca1 (solved: 8/800)
+
+skipping 855e0971 ...
+[402] checking 8597cfd7 (solved: 8/800)
+
+skipping 85b81ff1 ...
+[404] checking 85c4e7cd (solved: 8/800)
+
+[405] checking 85fa5666 (solved: 8/800)
+
+skipping 868de0fa ...
+[407] checking 8719f442 (solved: 8/800)
+
+skipping 8731374e ...
+[409] checking 88207623 (solved: 8/800)
+
+[410] checking 88a10436 (solved: 8/800)
+
+[411] checking 88a62173 (solved: 8/800)
+
+skipping 890034e9 ...
+skipping 891232d6 ...
+skipping 896d5239 ...
+skipping 8a004b2b ...
+skipping 8a371977 ...
+[417] checking 8b28cd80 (solved: 8/800)
+
+[418] checking 8ba14f53 (solved: 8/800)
+
+[419] checking 8be77c9e (solved: 8/800)
+SOLUTION found for 8be77c9e at index 0.
+output: 6x3
+[[0,0,0],
+[0,0,1],
+[1,0,0],
+[1,0,0],
+[0,0,1],
+[0,0,0]]
+
+Can you explain why this is the correct output? 
+expected: 6x3
+[[0,0,0],
+[0,0,1],
+[1,0,0],
+[1,0,0],
+[0,0,1],
+[0,0,0]]
+
+skipping 8cb8642d ...
+[421] checking 8d5021e8 (solved: 9/800)
+
+[422] checking 8d510a79 (solved: 9/800)
+
+skipping 8dae5dfc ...
+[424] checking 8e1813be (solved: 9/800)
+
+[425] checking 8e2edd66 (solved: 9/800)
+
+[426] checking 8e5a5113 (solved: 9/800)
+
+[427] checking 8eb1be9a (solved: 9/800)
+
+[428] checking 8ee62060 (solved: 9/800)
+
+skipping 8efcae92 ...
+[430] checking 8f2ea7aa (solved: 9/800)
+
+[431] checking 8fbca751 (solved: 9/800)
+
+[432] checking 90347967 (solved: 9/800)
+
+skipping 903d1b4a ...
+skipping 90c28cc7 ...
+[435] checking 90f3ed37 (solved: 9/800)
+
+[436] checking 9110e3c5 (solved: 9/800)
+
+[437] checking 913fb3ed (solved: 9/800)
+
+[438] checking 91413438 (solved: 9/800)
+
+skipping 91714a58 ...
+[440] checking 9172f3a0 (solved: 9/800)
+
+[441] checking 917bccba (solved: 9/800)
+
+skipping 928ad970 ...
+skipping 929ab4e9 ...
+skipping 92e50de0 ...
+[445] checking 9356391f (solved: 9/800)
+
+[446] checking 93b4f4b3 (solved: 9/800)
+
+[447] checking 93b581b8 (solved: 9/800)
+
+skipping 93c31fbe ...
+skipping 94133066 ...
+[450] checking 941d9a10 (solved: 9/800)
+
+[451] checking 94414823 (solved: 9/800)
+
+[452] checking 94be5b80 (solved: 9/800)
+
+[453] checking 94f9d214 (solved: 9/800)
+
+[454] checking 952a094c (solved: 9/800)
+
+[455] checking 9565186b (solved: 9/800)
+
+[456] checking 95990924 (solved: 9/800)
+
+skipping 95a58926 ...
+[458] checking 963e52fc (solved: 9/800)
+
+skipping 963f59bc ...
+skipping 96a8c0cd ...
+skipping 97239e3d ...
+skipping 9772c176 ...
+[463] checking 97999447 (solved: 9/800)
+
+skipping 97a05b5b ...
+skipping 981571dc ...
+skipping 98cf29f8 ...
+skipping 992798f6 ...
+skipping 99306f82 ...
+[469] checking 995c5fa3 (solved: 9/800)
+
+[470] checking 99b1bc43 (solved: 9/800)
+
+[471] checking 99fa7670 (solved: 9/800)
+
+[472] checking 9a4bb226 (solved: 9/800)
+
+[473] checking 9aec4887 (solved: 9/800)
+
+[474] checking 9af7a82c (solved: 9/800)
+
+skipping 9b2a60aa ...
+[476] checking 9b365c51 (solved: 9/800)
+
+skipping 9b4c17c4 ...
+[478] checking 9bebae7a (solved: 9/800)
+
+[479] checking 9c1e755f (solved: 9/800)
+
+[480] checking 9c56f360 (solved: 9/800)
+
+skipping 9caba7c3 ...
+skipping 9d9215db ...
+[483] checking 9ddd00f0 (solved: 9/800)
+
+skipping 9def23fe ...
+[485] checking 9dfd6313 (solved: 9/800)
+
+[486] checking 9ecd008a (solved: 9/800)
+
+skipping 9edfc990 ...
+skipping 9f236235 ...
+[489] checking 9f27f097 (solved: 9/800)
+
+skipping a04b2602 ...
+skipping a096bf4d ...
+[492] checking a1570a43 (solved: 9/800)
+
+skipping a2fd1cf0 ...
+[494] checking a3325580 (solved: 9/800)
+
+[495] checking a3df8b1e (solved: 9/800)
+
+skipping a3f84088 ...
+[497] checking a406ac07 (solved: 9/800)
+
+[498] checking a416b8f3 (solved: 9/800)
+SOLUTION found for a416b8f3 at index 0.
+output: 5x8
+[[4,0,0,0,4,0,0,0],
+[4,5,0,0,4,5,0,0],
+[0,5,6,0,0,5,6,0],
+[6,6,1,0,6,6,1,0],
+[0,0,0,1,0,0,0,1]]
+
+You can now solve the problem for any input size. 
+expected: 5x8
+[[4,0,0,0,4,0,0,0],
+[4,5,0,0,4,5,0,0],
+[0,5,6,0,0,5,6,0],
+[6,6,1,0,6,6,1,0],
+[0,0,0,1,0,0,0,1]]
+
+[499] checking a48eeaf7 (solved: 10/800)
+
+[500] checking a5313dff (solved: 10/800)
+
+skipping a57f2f04 ...
+[502] checking a59b95c0 (solved: 10/800)
+
+[503] checking a5f85a15 (solved: 10/800)
+
+[504] checking a61ba2ce (solved: 10/800)
+
+[505] checking a61f2674 (solved: 10/800)
+
+skipping a64e4611 ...
+[507] checking a65b410d (solved: 10/800)
+
+skipping a680ac02 ...
+[509] checking a68b268e (solved: 10/800)
+
+[510] checking a699fb00 (solved: 10/800)
+
+[511] checking a740d043 (solved: 10/800)
+
+[512] checking a78176bb (solved: 10/800)
+
+[513] checking a79310a0 (solved: 10/800)
+
+[514] checking a85d4709 (solved: 10/800)
+
+[515] checking a8610ef7 (solved: 10/800)
+
+[516] checking a87f7484 (solved: 10/800)
+
+[517] checking a8c38be5 (solved: 10/800)
+
+skipping a8d7556c ...
+skipping a934301b ...
+[520] checking a9f96cdd (solved: 10/800)
+
+[521] checking aa18de87 (solved: 10/800)
+
+[522] checking aa300dc3 (solved: 10/800)
+
+skipping aa4ec2a5 ...
+skipping aab50785 ...
+[525] checking aabf363d (solved: 10/800)
+
+[526] checking aba27056 (solved: 10/800)
+
+[527] checking ac0a08a4 (solved: 10/800)
+
+skipping ac0c5833 ...
+skipping ac2e8ecf ...
+skipping ac3e2b04 ...
+skipping ac605cbb ...
+[532] checking ad7e01d0 (solved: 10/800)
+
+skipping ae3edfdc ...
+[534] checking ae4f1146 (solved: 10/800)
+
+[535] checking ae58858e (solved: 10/800)
+
+[536] checking aedd82e4 (solved: 10/800)
+
+[537] checking aee291af (solved: 10/800)
+
+skipping af22c60d ...
+[539] checking af24b4cc (solved: 10/800)
+
+[540] checking af902bf9 (solved: 10/800)
+
+[541] checking b0722778 (solved: 10/800)
+
+[542] checking b0c4d837 (solved: 10/800)
+
+[543] checking b0f4d537 (solved: 10/800)
+
+[544] checking b15fca0b (solved: 10/800)
+
+[545] checking b190f7f5 (solved: 10/800)
+
+[546] checking b1948b0a (solved: 10/800)
+
+[547] checking b1fc8b8e (solved: 10/800)
+SOLUTION found for b1fc8b8e at index 0.
+output: 5x5
+[[8,8,0,8,8],
+[8,8,0,8,8],
+[0,0,0,0,0],
+[8,8,0,8,8],
+[8,8,0,8,8]]
+
+Can you explain the pattern and provide a mathematical formula to generate the output given the input?
+
+Hint: The transformation is not a simple rotation or reflection. It's a combination of both. 
+expected: 5x5
+[[8,8,0,8,8],
+[8,8,0,8,8],
+[0,0,0,0,0],
+[8,8,0,8,8],
+[8,8,0,8,8]]
+
+skipping b20f7c8b ...
+[549] checking b230c067 (solved: 11/800)
+
+[550] checking b27ca6d3 (solved: 11/800)
+
+skipping b2862040 ...
+skipping b457fec5 ...
+skipping b4a43f3b ...
+skipping b527c5c6 ...
+[555] checking b548a754 (solved: 11/800)
+
+[556] checking b60334d2 (solved: 11/800)
+
+[557] checking b6afb2da (solved: 11/800)
+
+[558] checking b7249182 (solved: 11/800)
+
+skipping b775ac94 ...
+[560] checking b782dc8a (solved: 11/800)
+
+[561] checking b7999b51 (solved: 11/800)
+
+[562] checking b7cb93ac (solved: 11/800)
+
+skipping b7f8a4d8 ...
+skipping b7fb29bc ...
+skipping b8825c91 ...
+[566] checking b8cdaf2b (solved: 11/800)
+
+[567] checking b91ae062 (solved: 11/800)
+
+[568] checking b942fd60 (solved: 11/800)
+
+[569] checking b94a9452 (solved: 11/800)
+
+skipping b9630600 ...
+[571] checking b9b7f026 (solved: 11/800)
+
+[572] checking ba26e723 (solved: 11/800)
+
+[573] checking ba97ae07 (solved: 11/800)
+
+skipping ba9d41b8 ...
+skipping baf41dbf ...
+[576] checking bb43febb (solved: 11/800)
+
+skipping bb52a14b ...
+[578] checking bbb1b8b6 (solved: 11/800)
+
+[579] checking bbc9ae5d (solved: 11/800)
+
+[580] checking bc1d5164 (solved: 11/800)
+
+[581] checking bc4146bd (solved: 11/800)
+
+skipping bcb3040b ...
+skipping bd14c3bf ...
+[584] checking bd4472b8 (solved: 11/800)
+
+[585] checking bda2d7a6 (solved: 11/800)
+
+[586] checking bdad9b1f (solved: 11/800)
+
+[587] checking be03b35f (solved: 11/800)
+
+[588] checking be94b721 (solved: 11/800)
+
+[589] checking beb8660c (solved: 11/800)
+
+[590] checking bf32578f (solved: 11/800)
+
+[591] checking bf699163 (solved: 11/800)
+
+skipping bf89d739 ...
+[593] checking c074846d (solved: 11/800)
+
+[594] checking c0f76784 (solved: 11/800)
+
+[595] checking c1990cce (solved: 11/800)
+
+skipping c1d99e64 ...
+skipping c3202e5a ...
+[598] checking c35c1b4c (solved: 11/800)
+
+[599] checking c3e719e8 (solved: 11/800)
+
+skipping c3f564a4 ...
+skipping c444b776 ...
+[602] checking c48954c1 (solved: 11/800)
+
+[603] checking c59eb873 (solved: 11/800)
+
+skipping c62e2108 ...
+[605] checking c64f1187 (solved: 11/800)
+
+[606] checking c658a4bd (solved: 11/800)
+
+skipping c663677b ...
+skipping c6e1b8da ...
+[609] checking c7d4e6ad (solved: 11/800)
+
+[610] checking c87289bb (solved: 11/800)
+
+[611] checking c8b7cc0f (solved: 11/800)
+SOLUTION found for c8b7cc0f at index 0.
+output: 3x3
+[[2,2,2],
+[2,0,0],
+[0,0,0]]
+
+Now you are ready to solve the problem. 
+expected: 3x3
+[[2,2,2],
+[2,0,0],
+[0,0,0]]
+
+[612] checking c8cbb738 (solved: 12/800)
+
+[613] checking c8f0f002 (solved: 12/800)
+
+skipping c909285e ...
+[615] checking c92b942c (solved: 12/800)
+
+skipping c97c0139 ...
+[617] checking c9e6f938 (solved: 12/800)
+
+[618] checking c9f8e694 (solved: 12/800)
+
+[619] checking ca8de6ea (solved: 12/800)
+SOLUTION found for ca8de6ea at index 0.
+output: 3x3
+[[7,6,5],
+[4,2,4],
+[5,6,7]]
+
+Can you explain the transformation and solve the problem for any input size?
+
+Note: The input matrix will always be square and have odd dimensions. The output matrix will always have dimensions (n-2)x(n-2) where n is the input size. 
+expected: 3x3
+[[7,6,5],
+[4,2,4],
+[5,6,7]]
+
+skipping ca8f78db ...
+[621] checking caa06a1f (solved: 13/800)
+
+[622] checking cad67732 (solved: 13/800)
+
+[623] checking cb227835 (solved: 13/800)
+
+[624] checking cbded52d (solved: 13/800)
+
+[625] checking ccd554ac (solved: 13/800)
+
+[626] checking cce03e0d (solved: 13/800)
+
+[627] checking cd3c21df (solved: 13/800)
+
+[628] checking cdecee7f (solved: 13/800)
+
+[629] checking ce039d91 (solved: 13/800)
+
+[630] checking ce22a75a (solved: 13/800)
+
+[631] checking ce4f8723 (solved: 13/800)
+
+skipping ce602527 ...
+[633] checking ce8d95cc (solved: 13/800)
+
+[634] checking ce9e57f2 (solved: 13/800)
+
+skipping cf133acc ...
+[636] checking cf98881b (solved: 13/800)
+
+[637] checking cfb2ce5a (solved: 13/800)
+
+[638] checking d017b73f (solved: 13/800)
+
+[639] checking d037b0a7 (solved: 13/800)
+
+[640] checking d06dbe63 (solved: 13/800)
+
+skipping d07ae81c ...
+[642] checking d0f5fe59 (solved: 13/800)
+
+[643] checking d10ecb37 (solved: 13/800)
+SOLUTION found for d10ecb37 at index 0.
+output: 2x2
+[[9,6],
+[2,9]]
+
+Can you explain the pattern and find the output for the following inputs?
+input3: 4x4
+[[1,2,3,4],
+[2,3,4,1],
+[3,4,1,2],
+[4,1,2,3]]
+
+input5: 5x5
+[[1,2,3,4,5,6],
+[2,3,4,5,6,1],
+[3,4,5,6,1,2],
+[4,5,6,1,2,3],
+[5,6,1,2,3,4]]
+
+input6: 7x7
+[[1,2,3,4,5,6,7,1],
+[2,3,4,5,6,7,1,2],
+[3,4,5,6,7,1,2,3],
+[4,5,6,7,1,2,3,4],
+[5,6,7,1,2,3,4,5],
+[6,7,1,2,3,4,5,6],
+[7,1,2,3,4,5,6,7]]
+
+input7: 3x3
+[[1,2,3],
+[2,3,1],
+[3,1,2]]
+
+input8: 3x3
+[[1,2,3],
+[2,3,1],
+[3,1,2]]
+
+input9: 3x3
+[[1,2,3],
+[2,3,1],
+[3,1,2]]
+
+input10: 3
+expected: 2x2
+[[9,6],
+[2,9]]
+
+[644] checking d13f3404 (solved: 14/800)
+
+[645] checking d19f7514 (solved: 14/800)
+
+[646] checking d22278a0 (solved: 14/800)
+
+[647] checking d23f8c26 (solved: 14/800)
+
+skipping d282b262 ...
+[649] checking d2abd087 (solved: 14/800)
+
+[650] checking d2acf2cb (solved: 14/800)
+
+skipping d304284e ...
+[652] checking d364b489 (solved: 14/800)
+
+[653] checking d37a1ef5 (solved: 14/800)
+
+[654] checking d406998b (solved: 14/800)
+
+[655] checking d43fd935 (solved: 14/800)
+
+[656] checking d4469b4b (solved: 14/800)
+SOLUTION found for d4469b4b at index 0.
+output: 3x3
+[[0,5,0],
+[5,5,5],
+[0,5,0]]
+
+Can you explain why? 
+expected: 3x3
+[[0,5,0],
+[5,5,5],
+[0,5,0]]
+
+[657] checking d47aa2ff (solved: 15/800)
+
+[658] checking d492a647 (solved: 15/800)
+
+[659] checking d4a91cb9 (solved: 15/800)
+
+[660] checking d4b1c2b1 (solved: 15/800)
+
+skipping d4c90558 ...
+[662] checking d4f3cd78 (solved: 15/800)
+
+[663] checking d511f180 (solved: 15/800)
+
+skipping d56f2372 ...
+[665] checking d5c634a2 (solved: 15/800)
+
+[666] checking d5d6de2d (solved: 15/800)
+
+[667] checking d631b094 (solved: 15/800)
+
+[668] checking d687bc17 (solved: 15/800)
+
+[669] checking d6ad076f (solved: 15/800)
+
+[670] checking d89b689b (solved: 15/800)
+
+[671] checking d8c310e9 (solved: 15/800)
+
+[672] checking d90796e8 (solved: 15/800)
+
+skipping d931c21c ...
+skipping d94c3b52 ...
+[675] checking d9f24cd1 (solved: 15/800)
+
+[676] checking d9fac9be (solved: 15/800)
+
+[677] checking da2b0fe3 (solved: 15/800)
+
+skipping da515329 ...
+[679] checking dae9d2b5 (solved: 15/800)
+
+[680] checking db3e9e38 (solved: 15/800)
+
+skipping db93a21d ...
+[682] checking dbc1a6ce (solved: 15/800)
+
+[683] checking dc0a314f (solved: 15/800)
+
+[684] checking dc1df850 (solved: 15/800)
+
+[685] checking dc2aa30b (solved: 15/800)
+
+skipping dc2e9a9d ...
+[687] checking dc433765 (solved: 15/800)
+SOLUTION found for dc433765 at index 0.
+output: 11x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,3,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,4,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0]]
+
+Can you explain the transformation and solve the problem for any input size? 
+expected: 11x11
+[[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,3,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,4,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0],
+[0,0,0,0,0,0,0,0,0,0,0]]
+
+[688] checking dd2401ed (solved: 16/800)
+
+[689] checking ddf7fa4f (solved: 16/800)
+
+skipping de1cd16c ...
+skipping de493100 ...
+[692] checking ded97339 (solved: 16/800)
+
+skipping df8cc377 ...
+[694] checking e0fb7511 (solved: 16/800)
+
+[695] checking e133d23d (solved: 16/800)
+
+[696] checking e179c5f4 (solved: 16/800)
+
+[697] checking e1baa8a4 (solved: 16/800)
+
+skipping e1d2900e ...
+skipping e2092e0c ...
+[700] checking e21a174a (solved: 16/800)
+
+[701] checking e21d9049 (solved: 16/800)
+
+skipping e26a3af2 ...
+[703] checking e345f17b (solved: 16/800)
+
+[704] checking e3497940 (solved: 16/800)
+
+skipping e4075551 ...
+[706] checking e40b9e2f (solved: 16/800)
+
+skipping e41c6fd3 ...
+[708] checking e48d4e1a (solved: 16/800)
+
+[709] checking e5062a87 (solved: 16/800)
+
+skipping e509e548 ...
+[711] checking e50d258f (solved: 16/800)
+
+[712] checking e57337a4 (solved: 16/800)
+
+[713] checking e5790162 (solved: 16/800)
+
+[714] checking e5c44e8f (solved: 16/800)
+
+skipping e619ca6e ...
+[716] checking e633a9e5 (solved: 16/800)
+
+skipping e66aafb8 ...
+skipping e6721834 ...
+skipping e681b708 ...
+[720] checking e69241bd (solved: 16/800)
+
+[721] checking e6de6e8f (solved: 16/800)
+
+skipping e73095fd ...
+[723] checking e74e1818 (solved: 16/800)
+
+skipping e760a62e ...
+[725] checking e7639916 (solved: 16/800)
+
+[726] checking e76a88a6 (solved: 16/800)
+
+[727] checking e78887d1 (solved: 16/800)
+
+[728] checking e7a25a18 (solved: 16/800)
+
+[729] checking e7b06bea (solved: 16/800)
+
+[730] checking e7dd8335 (solved: 16/800)
+
+[731] checking e8593010 (solved: 16/800)
+
+[732] checking e872b94a (solved: 16/800)
+
+skipping e88171ec ...
+skipping e8dc4411 ...
+skipping e95e3d8e ...
+[736] checking e9614598 (solved: 16/800)
+
+[737] checking e98196ab (solved: 16/800)
+
+[738] checking e99362f0 (solved: 16/800)
+
+[739] checking e9ac8c9e (solved: 16/800)
+
+[740] checking e9afcf9a (solved: 16/800)
+SOLUTION found for e9afcf9a at index 0.
+output: 2x6
+[[6,2,6,2,6,2],
+[2,6,2,6,2,6]]
+
+You can now solve the problem by simply applying the transformation to the input:
+
+input4: 2x6
+[[1,1,1,1,1,1],
+[5,5,5,5,5,5]]
+
+output4: 2x6
+[[1,5,1,5,1,5],
+[5,1,5,1,5,1]]
+
+input5: 2x6
+[[7,7,7,7,7,7],
+[0,0,0,0,0,0]]
+
+output5: 2x6
+[[7,0,7,0,7,0],
+[0,7,0,7,0,7]]
+
+input6: 2x6
+[[8,8,8,8,8,8],
+[4,4,4,4,4,4]]
+
+output6: 2x6
+[[8,4,8,4,8,4],
+[4,8,4,8,4,8]]
+
+Now you can see the pattern: the transformation is to replace each row with the other row, and then swap the elements in each column. 
+expected: 2x6
+[[6,2,6,2,6,2],
+[2,6,2,6,2,6]]
+
+[741] checking e9b4f6fc (solved: 17/800)
+
+skipping e9bb6954 ...
+skipping e9c9d9a1 ...
+[744] checking ea32f347 (solved: 17/800)
+
+[745] checking ea786f4a (solved: 17/800)
+
+skipping ea959feb ...
+[747] checking ea9794b1 (solved: 17/800)
+
+[748] checking eb281b96 (solved: 17/800)
+
+skipping eb5a1d5d ...
+[750] checking ec883f72 (solved: 17/800)
+
+[751] checking ecaa0ec1 (solved: 17/800)
+
+skipping ecdecbb3 ...
+[753] checking ed36ccf7 (solved: 17/800)
+
+[754] checking ed74f2f2 (solved: 17/800)
+
+[755] checking ed98d772 (solved: 17/800)
+
+[756] checking ef135b50 (solved: 17/800)
+
+[757] checking ef26cbf6 (solved: 17/800)
+
+[758] checking f0afb749 (solved: 17/800)
+
+skipping f0df5ff0 ...
+[760] checking f15e1fac (solved: 17/800)
+
+skipping f1cefba8 ...
+skipping f21745ec ...
+[763] checking f25fbde4 (solved: 17/800)
+
+[764] checking f25ffba3 (solved: 17/800)
+
+[765] checking f2829549 (solved: 17/800)
+
+skipping f35d900a ...
+skipping f3b10344 ...
+[768] checking f3cdc58f (solved: 17/800)
+
+skipping f3e62deb ...
+skipping f4081712 ...
+[771] checking f45f5ca7 (solved: 17/800)
+
+[772] checking f5aa3634 (solved: 17/800)
+
+[773] checking f5b8619d (solved: 17/800)
+
+[774] checking f5c89df1 (solved: 17/800)
+
+[775] checking f76d97a5 (solved: 17/800)
+
+[776] checking f823c43c (solved: 17/800)
+
+[777] checking f83cb3f6 (solved: 17/800)
+
+skipping f8a8fe49 ...
+[779] checking f8b3ba0a (solved: 17/800)
+
+skipping f8be4b64 ...
+[781] checking f8c80d96 (solved: 17/800)
+
+[782] checking f8ff0b80 (solved: 17/800)
+
+[783] checking f9012d9b (solved: 17/800)
+
+[784] checking f9a67cb5 (solved: 17/800)
+
+skipping f9d67f8b ...
+[786] checking fafd9572 (solved: 17/800)
+
+[787] checking fafffa47 (solved: 17/800)
+
+[788] checking fb791726 (solved: 17/800)
+
+[789] checking fc754716 (solved: 17/800)
+
+[790] checking fcb5c309 (solved: 17/800)
+
+[791] checking fcc82909 (solved: 17/800)
+
+skipping fd096ab6 ...
+skipping fd4b2b02 ...
+[794] checking fe9372f3 (solved: 17/800)
+
+skipping fea12743 ...
+[796] checking feca6190 (solved: 17/800)
+
+[797] checking ff28f65a (solved: 17/800)
+
+skipping ff72ca3e ...
+skipping ff805c23 ...
+
+Solved: 17/800
+Skipped: 280
+IDs of solved riddles:  ['1bfc4729', '239be575', '29c11459', '5614dbcf', '67385a82', '68b67ca3', '6fa7a44f', '7b7f7511', '8be77c9e', 'a416b8f3', 'b1fc8b8e', 'c8b7cc0f', 'ca8de6ea', 'd10ecb37', 'd4469b4b', 'dc433765', 'e9afcf9a']
